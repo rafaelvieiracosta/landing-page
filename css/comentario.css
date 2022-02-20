@@ -1,0 +1,146 @@
+.curva {
+  display: flex;
+  align-items: flex-end;
+}
+
+.curva img {
+  width: 100%;
+}
+
+.section-bg {
+  background-color: #f5fbff;
+  position: relative;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 50px 20px 100px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.section-info h2 {
+  font-size: 2.563rem;
+  line-height: 3.625rem;
+  font-family: "Raleway", sans-serif;
+  color: #00234c;
+  max-width: 70ch;
+}
+
+.section-info > p {
+  color: #00234c;
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 40px;
+  max-width: 55ch;
+}
+
+.section-info p:nth-child(3) {
+  margin-top: 15px;
+}
+
+.veja {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  max-width: max-content;
+  color: hsl(170, 45%, 43%);
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 40px;
+  text-decoration: none;
+  padding: 5px 0;
+  margin-top: 15px;
+  border-bottom: 2px solid hsl(170, 45%, 43%);
+  position: relative;
+}
+
+.veja svg {
+  margin-top: 2.3px;
+}
+
+.veja:hover {
+  color: #77d8c4;
+  border-color: #77d8c4;
+}
+
+.veja:hover use {
+  fill: #77d8c4;
+}
+
+.comentario {
+  max-width: 350px;
+  background: #fff;
+  padding:30px;
+  margin-top: 45px;
+  box-shadow: 5px 8px 16px -8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.comentario p {
+  color: #0b0c12;
+  font-size: 0.813rem;
+  line-height: 1.375rem;
+  font-family: "Open Sans", sans-serif;
+}
+.comentario > p{
+  margin-top: 5px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.user img {
+  max-width: 32px;
+  border-radius: 100%;
+}
+
+.user div p{
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: initial;
+}
+
+.user div p + p{
+  font-weight: 400;
+  font-size: 0.563rem;
+  line-height: initial;
+}
+
+@media (max-width: 900px) {
+  .section-info h2 {
+    font-size: 2.25rem;
+    line-height: 2.9rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .section-info h2 {
+    font-size: 1.5rem;
+    line-height: initial;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .section-img {
+    display: flex;
+    justify-content: center;
+    grid-row: 1;
+  }
+  .section-img img {
+    width: 300px;
+  }
+  .veja{
+    margin: 40px auto;
+  }
+  .comentario{
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,44 @@
+header{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+
+.menu a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.063rem;
+  color: #0B0C12;
+}
+
+.menu a:hover{
+  color: #18A0FB;
+}
+
+@media (max-width:550px){
+  .menu{
+    gap: 10px;
+  }
+  header img{
+    max-width: 100px;
+  }
+}
+
+@media (max-width:412px){
+header{
+  justify-content: center;
+}
+}
