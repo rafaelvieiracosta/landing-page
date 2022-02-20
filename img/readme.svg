@@ -37,7 +37,7 @@
 <path d="M14 24V42M14 24H21C21.5304 24 22.0391 24.2107 22.4142 24.5858C22.7893 24.9609 23 25.4696 23 26V40C23 40.5304 22.7893 41.0391 22.4142 41.4142C22.0391 41.7893 21.5304 42 21 42H14V24ZM14 24H7C6.46957 24 5.96086 24.2107 5.58579 24.5858C5.21071 24.9609 5 25.4696 5 26V40C5 40.5304 5.21071 41.0391 5.58579 41.4142C5.96086 41.7893 6.46957 42 7 42H14V24Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_7_2" transform="translate(0.00573427 -0.00506174) scale(0.000694444 0.00124793)"/>
+<use xlink:href="#image0_7_2" transform="translate(-0.00275469 -0.00372315) scale(0.000698665 0.00125551)"/>
 </pattern>
 <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1_7_2" transform="translate(0 0.00020516) scale(0.00347222 0.00160655)"/>
